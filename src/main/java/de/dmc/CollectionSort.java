@@ -5,7 +5,7 @@ import java.util.List;
 
 
 /**
- * This is a Lambda Example for T, this will work for any List containing Objects extendin Comparable so the have a
+ * This is a Lambda Example for T, this will work for any List containing Objects extending Comparable so the have a
  * compareTo Method.
  *
  * @param <T> any Object implementing the Comparable interface
@@ -47,9 +47,8 @@ public class CollectionSort<T extends Comparable<T>>
 		// This works cause the Object T contains a method compareTo with the signature compareTo(T a, T b)
 		// Why cause
 		list.sort(T::compareTo);
-	}
 
-	public void sortRevesed(){
+		// We can reverse the sort via the Comparator class
 		Comparator<T> cmp = T::compareTo;
 		cmp = cmp.reversed();
 		list.sort(cmp);
