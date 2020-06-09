@@ -1,6 +1,10 @@
 package com.java.lambdas.practice;
 
-
+/**
+ *
+ * @author kathithi
+ *
+ */
 public class AdapterDesignPattern
 {
 	public static void main(String args[])

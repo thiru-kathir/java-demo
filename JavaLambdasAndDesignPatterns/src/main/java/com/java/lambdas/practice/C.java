@@ -1,9 +1,10 @@
 package com.java.lambdas.practice;
 
 /**
- * This is a Explanation of this in a class context.
- *
- */
+*
+* @author thiru-kathir
+*
+*/
 public class C
 {
 
