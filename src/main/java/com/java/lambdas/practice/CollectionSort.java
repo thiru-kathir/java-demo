@@ -1,4 +1,4 @@
-package de.dmc;
+package com.java.lambdas.practice;
 
 import java.util.Comparator;
 import java.util.List;

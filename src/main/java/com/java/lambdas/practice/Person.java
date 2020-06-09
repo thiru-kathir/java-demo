@@ -1,4 +1,4 @@
-package de.dmc;
+package com.java.lambdas.practice;
 
 public class Person
 {

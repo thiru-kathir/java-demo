@@ -1,4 +1,4 @@
-package de.dmc;
+package com.java.lambdas.practice;
 
 /**
  * Just a dummy object implementing Comparable to show functionality in {@link PersonSort}

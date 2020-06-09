@@ -1,4 +1,4 @@
-package de.dmc;
+package com.java.lambdas.practice;
 
 /**
  * This is a Explanation of this in a class context.

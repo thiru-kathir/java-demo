@@ -1,4 +1,4 @@
-package de.dmc;
+package com.java.lambdas.practice;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -21,7 +21,7 @@ public class Streams
 
 		final char[] foo =
 		{ 'T', 'a', 'n', 'j', 'a' };
-		System.out.println(Arrays.asList(foo));
+		System.out.println(Arrays.asList(foo).toString());
 
 
 		final List<String> sublist2 = list.stream().map(s -> Arrays.asList(s.toCharArray())).flatMap(a -> a.stream())
