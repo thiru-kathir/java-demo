@@ -1,1 +1,2 @@
-Java 8 Lambda Examples
+# java-demo
+This repo has projects which contains java latest concepts 
