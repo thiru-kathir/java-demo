@@ -24,7 +24,7 @@ public class Streams
 		System.out.println(Arrays.asList(foo).toString());
 
 
-		final List<String> sublist2 = list.stream().map(s -> Arrays.asList(s.toCharArray())).flatMap(a -> a.stream())
+		final List<Object> sublist2 = list.stream().map(s -> Arrays.asList(s.toCharArray())).flatMap(a -> a.stream())
 				.map(c -> new String(c)).collect(Collectors.toList());
 		System.out.println(sublist2);
 	}

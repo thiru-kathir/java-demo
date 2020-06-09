@@ -7,7 +7,6 @@ package com.java.lambdas.practice;
 public class OtherStuff implements Comparable<OtherStuff>
 {
 
-	@Override
 	public int compareTo(OtherStuff arg0)
 	{
 		return 0;

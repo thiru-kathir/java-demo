@@ -1,5 +1,10 @@
 package com.java.lambdas.practice;
 
+/**
+ *
+ * @author kathithi
+ *
+ */
 public class ApartmentLoanCalculatorAdapter implements EmiCalculatorAdapter
 {
 	private EMICalculator emiCalculator;
@@ -9,7 +14,6 @@ public class ApartmentLoanCalculatorAdapter implements EmiCalculatorAdapter
 		this.emiCalculator = emiCalculator;
 	}
 
-	@Override
 	public double calculateEmi()
 	{
 		return convertEmiFromHomeToApartment(emiCalculator.calculateEmi(5, 1000.00));
